@@ -1,0 +1,59 @@
+body{
+    max-width: 1440px;
+    background-color: rgb(215, 204, 206);
+    font-family: sans-serif;
+   
+}
+.main_main{
+    padding: 40px;
+    width: 500px;
+    background-color: white;
+    margin: 0 auto;
+}
+.square{
+    width: 13px;
+    height: 13px;
+    background-color: blue;
+}
+
+.resume{
+    display: flex;
+    margin: 50 auto;
+    justify-content: center;
+}
+.resume b{
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: -7px;
+}
+hr{
+    margin-top: -10px;
+    border: 1.5px solid black;
+    width: 200px;
+    margin-left: 1px;
+}
+input{
+    border: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hr1{
+    width: 500px;
+}
+button{
+    width: 100px;
+    border-radius: 90px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    cursor: pointer;
+}

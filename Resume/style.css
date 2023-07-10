@@ -1,0 +1,81 @@
+body{
+    max-width: 1440px;
+    background-color: rgb(215, 204, 206);
+    font-family: sans-serif;
+}
+.square{
+    width: 13px;
+    height: 13px;
+    background-color: blue;
+}
+
+.resume{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.resume b{
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: -7px;
+}
+.ed{
+    display: flex;
+    width: 600px;
+    margin-top: 50px;
+    margin: 50px auto;
+}
+.ed .experience{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.ed button{
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 90px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    margin-left: 390px;
+}   
+.ed button:hover{
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 90px;
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    cursor: pointer;
+    padding: 7px 10px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    background-color: white;
+    padding: 40px;
+    margin-top: 40px;
+    box-shadow: 0 0 10px grey;
+    margin: 50px auto;
+}
+.col1 > p{
+    font-size: 14px;
+}
+.col2{
+    width: 290px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.final_box{
+    width: 500px;
+    background-color: white;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px grey;
+    margin: 50px auto;
+}
+.education{
+    margin-left: 210px;
+}
